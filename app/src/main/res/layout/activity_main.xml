@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.vladislav.tutorial2.MainActivity">
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="4dp"
+            android:text = "@string/width"
+            android:textAppearance="@android:style/TextAppearance.Large"/>
+        <com.example.vladislav.tutorial2.LengthPicker
+            android:id = "@+id/width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="4dp"
+            android:text = "@string/height"
+            android:textAppearance="@android:style/TextAppearance.Large"/>
+        <com.example.vladislav.tutorial2.LengthPicker
+            android:id = "@+id/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="4dp"
+            android:text = "@string/area"
+            android:textAppearance="@android:style/TextAppearance.Large"/>
+        <TextView
+            android:id = "@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance = "@android:style/TextAppearance.Large"/>
+    </TableRow>
+</TableLayout>
+

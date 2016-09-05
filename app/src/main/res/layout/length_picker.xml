@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--merge ataches directly all buttons and textviews.
+Without using Linearlayout-->
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vladislav.tutorial2.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/minus_button"
+        android:text = "@string/minus"/>
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/text"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/plus_button"
+        android:text="@string/plus"/>
+</merge>
